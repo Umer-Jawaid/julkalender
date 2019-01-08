@@ -1,0 +1,79 @@
+body{
+	background: #d3cdcd;
+	font-family: Tahoma;
+}
+
+
+.Month {
+	margin: 120px auto;
+}
+
+
+
+.Month .day{
+	background: #ffffff;
+	border:1px solid rgb(0, 0, 0);
+	text-align: center;
+	transition: .2s ease;
+	font-size: 20px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+	margin-bottom: 5px;
+	font-weight: bold;
+	cursor: default;
+}
+
+
+.Month .day:hover{
+	font-size: 50px;
+}
+
+
+.Month .today{
+	background: rgb(47, 194, 18);
+	cursor: pointer;
+}
+.Month .waiting{
+	background: #c72d1f;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.Month .alertbox{
+	background: rgb(255, 255, 255);
+	border: 1px solid rgb(255, 251, 251);
+	position: fixed;
+	z-index: 1;
+	top: 5%;
+	left: 0;
+	width: 500px;
+	left: 35%;
+	display: none;
+}
+
+
+.Month .alertbox .details{
+	line-height: 1.6;
+	font-size: 16px;
+	color: #666;
+	background: #eee;
+	padding: 10px;
+	text-align: center;
+}
+
+
+.Month .alertbox .btn-block{
+	text-align: center;
+	margin: 10px 0;
+}
+
+
+.Month .alertbox .head{
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	padding: 10px;
+	margin: 0;
+}
